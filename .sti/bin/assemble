@@ -8,7 +8,7 @@ chgrp -R 0 ./
 chmod -R g+rw ./
 
 # sleep longer then your completionDeadlineSeconds
-sleep 50
+sleep 500
 
 if [ -f composer.json ]; then
   echo "Found 'composer.json', installing dependencies using composer.phar... "
